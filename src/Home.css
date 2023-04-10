@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+.navbar {
+  padding: 20px;
+  box-shadow: 2px 4px 4px rgb(182, 180, 180);
+  font-family: "Poppins", sans-serif;
+  font-size: 2rem;
+}
+* {
+  margin: 5px;
+}
+.navbar a {
+  color: rgb(11, 11, 11);
+}
+.navbar a span {
+  color: rgb(82, 186, 134);
+}
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+.main {
+  font-size: 5rem;
+  color: rgb(133, 132, 132);
+  width: 30%;
+  padding: 40px 40px;
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: -2px;
+}
+.main span {
+  color: black;
+}
+.card,
+.main {
+  display: inline-block;
+}
+.card {
+  box-shadow: 2px 4px 4px rgb(182, 180, 180);
+  /* border: 2px solid black; */
+  width: 18rem;
+  height: 20rem;
+  padding: 1rem 2rem;
+  margin: 3rem 1rem 1rem 1rem;
+  border-radius: 3px;
+}
+.card:hover {
+  box-shadow: 8px 8px 8px rgb(182, 180, 180);
+}
+.card .options li {
+  list-style: none;
+}
+.card .options li {
+  list-style: none;
+}
+#radiobutton1 {
+  accent-color: rgb(82, 186, 134);
+}
+
+#radiobutton2 {
+  accent-color: rgb(82, 186, 134);
+}
+button {
+  background-color: #4caf50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  float: right;
+  border-radius: 5px;
+}
+button:hover {
+  box-shadow: 2px 4px 4px rgb(182, 180, 180);
+  color: black;
+  cursor: pointer;
+}
+
+.nextBtn {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
